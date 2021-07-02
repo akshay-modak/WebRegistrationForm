@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+	<servlet>
+		<servlet-name>UserRegistration</servlet-name>
+		<servlet-class>com.personal.UserRegistration</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>UserRegistration</servlet-name>
+		<url-pattern>/Register</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	<servlet>
+		<servlet-name>DeleteUser</servlet-name>
+		<servlet-class>com.personal.DeleteUser</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>DeleteUser</servlet-name>
+		<url-pattern>/delete</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	<servlet>
+		<servlet-name>UserDisplay</servlet-name>
+		<servlet-class>com.personal.UserDisplay</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>UserDisplay</servlet-name>
+		<url-pattern>/display</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	<servlet>
+		<servlet-name>UserUpdate</servlet-name>
+		<servlet-class>com.personal.UserUpdate</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>UserUpdate</servlet-name>
+		<url-pattern>/update</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>FinalUpdate</servlet-name>
+		<servlet-class>com.personal.FinalUpdate</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>FinalUpdate</servlet-name>
+		<url-pattern>/finalupdate</url-pattern>
+	</servlet-mapping>
+	
+	<welcome-file-list>
+		<welcome-file>Home.jsp</welcome-file>
+	</welcome-file-list>
+</web-app>
